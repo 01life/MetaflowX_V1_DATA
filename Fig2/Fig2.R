@@ -61,6 +61,19 @@ create_beautiful_radarchart <- function(data, color = "#00AFBB",
 #1_Quality_of_bins_all_bins_have_the_same_weight_metrics_table.txt AMBER.result.txt
 #cami1.result.txt  self_similarize.result.txt
 
+
+# biner_list <- c("MetaBAT2","CONCOCT","SemiBin2","MaxBin2","MetaBinner","COMEBin","binny")
+# biner_cor <- c("#e41a1c","#377eb8","#4daf4a","#984ea3","#ff7f00","#a65628","#f781bf")
+
+
+# #binnigTools.stat ------ 
+# pdf("binner.legend.pdf",width = 2.5 , height = 3.1)
+# plot(NULL ,xaxt='n',yaxt='n',bty='n',ylab='',xlab='', xlim=0:1, ylim=0:1)
+# legend("topleft", legend =group_list, pch=16, pt.cex=1, cex=1, bty='n',
+#        col = color_var)
+# mtext("Binner Software", at=0.05, cex=1.2)
+# dev.off()
+
 #ALL ------
 profile <- read.table("/aimigene/lianglifeng/01.Project/09.MetaFlowX/mode5/plotAMBER.result.txt",header=T, sep = "\t", check.name = F)
 #bp ------ 
@@ -146,6 +159,9 @@ tt$Min <- rep(0,  nrow(tt))
 tt$Max <- rep(1,  nrow(tt))
 dd <- as.data.frame(t(tt))
 df <- dd[c("Max","Min", "concoct" ,"maxbin","metabat","binny","metabinner","semibin","Gold_standard" ), , drop = FALSE]
+
+
+
 
 png("/aimigene/lianglifeng/01.Project/09.MetaFlowX/mode5/plot03.CAMI.base.png",width = 6,height = 6,units='in',res=600)
 create_beautiful_radarchart(
