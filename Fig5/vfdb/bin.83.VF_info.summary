@@ -1,0 +1,19 @@
+VF	plasmid	ICE	prophage	Category	Host_species	Completeness (%)	Total_genes_in_VF
+E. coli | Type 1 fimbriae	N	N	N	Colonization_VF	Escherichia coli;Shigella sonnei;Shigella boydii	100.0	9
+E. coli | Chu (E. coli heme uptake)	N	N	N	Housekeeping_VF	Escherichia coli;Shigella flexneri	50.0	8
+E. coli | Enterobactin	N	N	N	Housekeeping_VF	Escherichia albertii;Escherichia coli;Shigella boydii;Shigella flexneri	100.0	12
+E. coli | Aerobactin	Y	N	N	Housekeeping_VF	Shigella boydii;Shigella dysenteriae;Shigella flexneri;Escherichia coli	80.0	5
+E. coli | OmpA (Outer membrane protein A)	N	N	N	Colonization_VF	Escherichia coli;Shigella flexneri	100.0	1
+E. coli | ECP (E. coli common pilus)	N	N	Y	Colonization_VF	Escherichia fergusonii;Shigella boydii;Shigella sonnei;Escherichia coli	83.33	6
+E. coli | T3SS secreted effectors (espL1)	N	N	N	True_VF	Escherichia coli	100.0	1
+E. coli | T3SS secreted effectors (espL4)	N	N	N	True_VF	Escherichia coli	100.0	1
+E. coli | T3SS secreted effectors (espR1)	N	N	N	True_VF	Escherichia coli	100.0	1
+E. coli | T3SS secreted effectors (espX2)	N	N	N	True_VF	Escherichia coli	100.0	1
+E. coli | T3SS secreted effectors (espX5)	N	N	N	True_VF	Escherichia coli	100.0	1
+E. coli | FdeC (Factor adherence E. coli)	N	N	N	Colonization_VF	Escherichia coli;Shigella flexneri	100.0	1
+E. coli | K1 capsule	N	N	N	Immune_evasion_VF	Escherichia fergusonii;Escherichia coli;Shigella flexneri;Klebsiella oxytoca	53.85	13
+K. pneumoniae | Yersiniabactin	Y	N	Y	Housekeeping_VF	Escherichia coli;Citrobacter koseri;Enterobacter cloacae;Yersinia pseudotuberculosis;Klebsiella variicola;Salmonella enterica;Citrobacter freundii;Shigella flexneri;Klebsiella pneumoniae;Yersinia enterocolitica;Enterobacter hormaechei;Citrobacter braakii;Klebsiella aerogenes;Klebsiella africana;Yersinia pestis	72.73	11
+K. pneumoniae | Aerobactin	Y	N	N	Housekeeping_VF	Escherichia coli;Salmonella enterica;Klebsiella variicola;Shigella flexneri;Klebsiella pneumoniae;Klebsiella quasipneumoniae;Klebsiella aerogenes	20.0	5
+S. dysenteriae | T2SS	N	N	N	Secretory_VF	Escherichia coli;Shigella dysenteriae	100.0	11
+S. dysenteriae | Shu	N	N	N	Housekeeping_VF	Escherichia coli;Shigella dysenteriae	57.14	7
+Y. pestis | Yersiniabactin	Y	N	Y	Housekeeping_VF	Escherichia coli;Enterobacter cloacae;Yersinia pseudotuberculosis;Klebsiella variicola;Salmonella enterica;Citrobacter freundii;Shigella flexneri;Klebsiella pneumoniae;Yersinia enterocolitica;Enterobacter hormaechei;Klebsiella aerogenes;Klebsiella africana;Yersinia pestis	18.18	11

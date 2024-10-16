@@ -1,0 +1,11 @@
+VF	plasmid	ICE	prophage	Category	Host_species	Completeness (%)	Total_genes_in_VF
+A. baumannii | Phospholipase C	N	N	N	Immune_evasion_VF	Acinetobacter baumannii	100.0	2
+A. baumannii | Phospholipase D	N	N	N	Immune_evasion_VF	Acinetobacter baumannii	100.0	1
+A. baumannii | Acinetobactin	N	N	N	Housekeeping_VF	Acinetobacter baumannii;Acinetobacter lactucae;Acinetobacter pittii	100.0	18
+A. baumannii | Csu fimbriae	Y	N	N	Colonization_VF	Acinetobacter baumannii	100.0	6
+A. baumannii | Bap (Biofilm-associated protein)	N	N	N	Colonization_VF	Acinetobacter baumannii	100.0	1
+A. baumannii | PNAG	N	N	N	Colonization_VF	Acinetobacter baumannii	100.0	4
+A. baumannii | AdeFGH efflux pump	N	N	N	Secretory_VF	Acinetobacter baumannii;Acinetobacter calcoaceticus	100.0	3
+A. baumannii | OmpA (Outer membrane protein A) 	N	N	N	Colonization_VF	Acinetobacter baumannii;Acinetobacter pittii	100.0	1
+A. baumannii | Quorom sensing (Autoinducer-receptor mechanism)	N	N	N	Regulatory_VF	Acinetobacter baumannii	100.0	2
+A. baumannii | BfmRS (Biofilm-controlling response regulator)	Y	N	N	Regulatory_VF	Acinetobacter baumannii;Acinetobacter calcoaceticus	100.0	2

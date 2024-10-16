@@ -1,0 +1,6 @@
+VF	plasmid	ICE	prophage	Category	Host_species	Completeness (%)	Total_genes_in_VF
+A. baumannii | Phospholipase C	N	N	N	Immune_evasion_VF	Acinetobacter baumannii	50.0	2
+A. baumannii | Acinetobactin	N	N	N	Housekeeping_VF	Acinetobacter baumannii;Acinetobacter pittii	94.44	18
+A. baumannii | Csu fimbriae	Y	N	N	Colonization_VF	Acinetobacter baumannii	66.67	6
+A. baumannii | AdeFGH efflux pump	N	N	N	Secretory_VF	Acinetobacter baumannii;Acinetobacter calcoaceticus	33.33	3
+A. baumannii | OmpA (Outer membrane protein A) 	N	N	N	Colonization_VF	Acinetobacter baumannii;Acinetobacter pittii	100.0	1

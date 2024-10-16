@@ -1,0 +1,9 @@
+bin.122	Staphylococcus aureus
+bin.143	Klebsiella pneumoniae
+bin.179	Acinetobacter pittii
+bin.23	Enterococcus_B faecium
+bin.42	Pseudomonas aeruginosa
+bin.44	Haemophilus_D parainfluenzae_A
+bin.83	Escherichia coli
+bin.90	Acinetobacter baumannii
+bin.5	Enterococcus faecaliss

@@ -1,0 +1,12 @@
+VF	plasmid	ICE	prophage	Category	Host_species	Completeness (%)	Total_genes_in_VF
+E. coli | ECP (E. coli common pilus)	N	N	N	Colonization_VF	Escherichia fergusonii;Shigella sonnei;Escherichia coli	16.67	6
+K. pneumoniae | Type 3 fimbriae	Y	N	N	Colonization_VF	Enterobacter roggenkampii;Klebsiella quasipneumoniae;Providencia rustigianii;Klebsiella pneumoniae;Enterobacter hormaechei;Citrobacter koseri;Pseudomonas fragi;Enterobacter cloacae;Enterobacter kobei;Enterobacter asburiae;Citrobacter freundii;Klebsiella variicola;Klebsiella aerogenes;Escherichia coli	100.0	8
+K. pneumoniae | Salmochelin	N	N	N	Housekeeping_VF	Klebsiella aerogenes;Klebsiella pneumoniae	20.0	5
+K. pneumoniae | Type 1 fimbriae	N	N	N	Colonization_VF	Klebsiella aerogenes;Klebsiella africana;Klebsiella pneumoniae	90.0	10
+K. pneumoniae | Enterobactin	N	N	N	Housekeeping_VF	Klebsiella aerogenes;Klebsiella quasivariicola;Klebsiella quasipneumoniae;Klebsiella pneumoniae	84.62	13
+K. pneumoniae | T6SS	N	N	Y	Secretory_VF	Klebsiella quasipneumoniae;Klebsiella pneumoniae;Klebsiella quasivariicola;Klebsiella variicola;Klebsiella aerogenes	64.71	17
+K. pneumoniae | T6SS secreted effectors (tle1)	N	N	N	True_VF	Klebsiella pneumoniae	100.0	1
+K. pneumoniae | Capsule	N	N	N	Immune_evasion_VF	Klebsiella aerogenes;Klebsiella quasipneumoniae;Klebsiella pneumoniae;Escherichia coli	20.0	20
+K. pneumoniae | RcsAB (Regulation of capsule synthesis)	N	N	N	Regulatory_VF	Klebsiella aerogenes;Klebsiella quasipneumoniae;Klebsiella pneumoniae	100.0	2
+K. pneumoniae | LPS	N	N	N	Immune_evasion_VF	Klebsiella quasipneumoniae;Klebsiella pneumoniae;Klebsiella quasivariicola;Klebsiella aerogenes;Escherichia coli	100.0	7
+K. pneumoniae | AcrAB	N	N	N	Secretory_VF	Klebsiella aerogenes;Klebsiella pneumoniae	100.0	2

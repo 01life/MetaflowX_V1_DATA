@@ -1,0 +1,4 @@
+VF	plasmid	ICE	prophage	Category	Host_species	Completeness (%)	Total_genes_in_VF
+E. faecium | SgrA (Serine glutamate repeat A)	Y	N	N	Colonization_VF	Enterococcus faecium	100.0	1
+E. faecium | Acm	N	N	N	Colonization_VF	Enterococcus faecium	100.0	1
+E. faecalis | Fibrinogen binding protein	N	N	N	Colonization_VF	Enterococcus faecalis	33.33	3

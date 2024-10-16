@@ -1,0 +1,25 @@
+VF	plasmid	ICE	prophage	Category	Host_species	Completeness (%)	Total_genes_in_VF
+S. aureus | Gamma-hemolysin	N	N	N	True_VF	Staphylococcus aureus	100.0	3
+S. aureus | EbpS (Elastin-binding protein)	N	N	N	Colonization_VF	Staphylococcus aureus	100.0	1
+S. aureus | SDr (Ser-Asp rich proteins)	N	N	N	Colonization_VF	Staphylococcus aureus	100.0	3
+S. aureus | FnBPs	N	N	N	Colonization_VF	Staphylococcus aureus	50.0	2
+S. aureus | Intercellular adhesion proteins	N	N	N	Colonization_VF	Staphylococcus aureus	60.0	5
+S. aureus | Clumping factor	N	N	N	Colonization_VF	Staphylococcus aureus	100.0	2
+S. aureus | Delta-hemolysin	N	N	N	True_VF	Staphylococcus aureus	100.0	1
+S. aureus | Alpha-hemolysin	N	N	N	True_VF	Staphylococcus aureus	100.0	1
+S. aureus | Staphopain	N	N	N	Processing_VF	Staphylococcus aureus	100.0	2
+S. aureus | V8 protease	N	N	N	Processing_VF	Staphylococcus aureus	100.0	1
+S. aureus | Capsule	N	N	N	Immune_evasion_VF	Staphylococcus aureus	68.75	16
+S. aureus | Aureolysin	N	N	N	Processing_VF	Staphylococcus aureus	100.0	1
+S. aureus | Hyaluronate lyase	N	N	N	Processing_VF	Staphylococcus aureus	100.0	1
+S. aureus | Lipase	N	N	N	Processing_VF	Staphylococcus aureus	100.0	2
+S. aureus | Isd	N	N	N	Housekeeping_VF	Staphylococcus aureus	100.0	8
+S. aureus | Staphylokinase	N	N	Y	Colonization_VF	Staphylococcus aureus	100.0	1
+S. aureus | Beta-hemolysin	N	N	N	True_VF	Staphylococcus aureus	100.0	1
+S. aureus | SE (Staphylococcal enterotoxin seb)	Y	N	Y	True_VF	Staphylococcus aureus	100.0	1
+S. aureus | T7SS	N	N	Y	Secretory_VF	Staphylococcus aureus;Staphylococcus argenteus	65.0	20
+S. aureus | AdsA (Adenosine synthase A)	N	N	N	Immune_evasion_VF	Staphylococcus aureus	100.0	1
+S. aureus | Sbi	N	N	N	Immune_evasion_VF	Staphylococcus aureus	100.0	1
+S. aureus | CHIPS (Chemotaxis inhibitory protein of Staphylococcus)	N	N	Y	Immune_evasion_VF	Staphylococcus aureus	100.0	1
+S. aureus | SCIN	N	N	Y	Immune_evasion_VF	Staphylococcus aureus;Staphylococcus argenteus	100.0	1
+S. aureus | Leukocidin	N	N	N	True_VF	Staphylococcus aureus	100.0	1

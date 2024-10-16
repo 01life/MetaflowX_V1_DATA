@@ -1,0 +1,1 @@
+Total_length ~ clean_bases	 y = -8187526.1552+16137574.7134x

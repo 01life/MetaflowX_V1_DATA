@@ -1,0 +1,17 @@
+VF	plasmid	ICE	prophage	Category	Host_species	Completeness (%)	Total_genes_in_VF
+P. aeruginosa | Alginate (Mucoid exopolysaccharide)	N	N	N	Immune_evasion_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	57.69	26
+P. aeruginosa | LPS	N	N	N	Immune_evasion_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	57.14	7
+P. aeruginosa | Alkaline protease	N	N	N	Processing_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	100.0	1
+P. aeruginosa | T3SS secreted effectors (exoT)	N	N	Y	True_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	100.0	1
+P. aeruginosa | T3SS secreted effectors (exoY)	N	N	N	True_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	100.0	1
+P. aeruginosa | Quorum sensing	N	N	N	Regulatory_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	100.0	2
+P. aeruginosa | Rhamnolipid	N	N	N	Colonization_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	33.33	3
+P. aeruginosa | Pyochelin	N	N	N	Housekeeping_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	18.18	11
+P. aeruginosa | Pyocyanin	N	N	N	Housekeeping_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	90.0	10
+P. aeruginosa | Xcp secretion system	Y	N	N	Secretory_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	81.82	11
+P. aeruginosa | T3SS	N	N	N	Secretory_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	18.42	38
+P. aeruginosa | Type IV pili	N	N	Y	Colonization_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	66.67	33
+P. aeruginosa | Flagella	N	N	N	Housekeeping_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	23.91	46
+P. aeruginosa | HSI-1 T6SS	N	N	N	Secretory_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	56.52	23
+P. aeruginosa | HSI-1 T6SS secreted effectors (tse1)	N	N	N	True_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	100.0	1
+P. aeruginosa | Pyoverdine	N	N	N	Housekeeping_VF	Pseudomonas fluorescens;Pseudomonas aeruginosa	4.55	22

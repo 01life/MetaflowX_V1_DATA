@@ -1,0 +1,8 @@
+VF	plasmid	ICE	prophage	Category	Host_species	Completeness (%)	Total_genes_in_VF
+E. faecalis | EfaA	N	N	N	Colonization_VF	Enterococcus faecalis	100.0	1
+E. faecalis | Ace (Adhesin to collagen of E. faecalis)	N	N	N	Colonization_VF	Enterococcus faecalis	100.0	1
+E. faecalis | Capsule	N	N	N	Immune_evasion_VF	Enterococcus faecalis	18.18	11
+E. faecalis | Hyaluronidase	N	N	N	Processing_VF	Enterococcus faecalis	50.0	2
+E. faecalis | BopD	N	N	N	Colonization_VF	Enterococcus faecalis	100.0	1
+E. faecalis | Ebp pili (Endocarditis- and biofilm-associated pilus)	N	N	Y	Colonization_VF	Enterococcus faecalis	100.0	4
+E. faecalis | Fibrinogen binding protein	N	N	N	Colonization_VF	Enterococcus faecalis	66.67	3
