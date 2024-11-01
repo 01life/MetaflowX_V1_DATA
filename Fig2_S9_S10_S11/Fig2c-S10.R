@@ -57,9 +57,9 @@ df <- profile %>%
   )
 
 
-type_col <- rev(c("#f1eef6","#bdc9e1","#74a9cf","#2b8cbe","#045a8d","#062439"))
+# type_col <- rev(c("#f1eef6","#bdc9e1","#74a9cf","#2b8cbe","#045a8d","#062439"))
 
-type_col <- c("#05668d","#028090","#00a896","#02c39a","#f0f3bd","#fefcfb")
+type_col <- c("#05668d","#028090","#00a896","#02c39a","#f0f3bd","#eaeaea") # e9ecef f4f1de  ebebeb eaeaea
 F1_list <- c(">0.9",">0.8",">0.7",">0.6",'>=0.5',"<0.5")
 
 df$BinScore <- factor(df$BinScore,levels=F1_list)
@@ -75,7 +75,7 @@ df_sorted <- df %>%
 df$binner_list <- factor(df$binner_list,levels=df_sorted$binner_list)
 
 
-dd <- ggbarplot(df, x = "binner_list", y = "mean_counts", fill = "BinScore",size = 0.1,
+dd <- ggbarplot(df, x = "binner_list", y = "mean_counts", fill = "BinScore", color = "BinScore",size = 0.1,
             ggtheme = theme_bw() +
               theme(axis.text.x = element_text(color="black",size=0,angle=-90,hjust= 0 ,vjust = 0.5 ,face="bold"),
                     axis.text.y = element_text(color="black",size=8,face="bold"),
@@ -95,6 +95,7 @@ dd <- ggbarplot(df, x = "binner_list", y = "mean_counts", fill = "BinScore",size
                     panel.background = element_blank()),
             legend = "top",title = "",xlab = '', ylab = 'Avg (#Bins)',width =0.7)+ 
     scale_y_continuous(expand = expansion(mult = c(0, 0.01)))+
+    scale_color_manual(values=type_col,labels=F1_list,limits = F1_list, breaks = F1_list)+
     scale_fill_manual(values=type_col,labels=F1_list,limits = F1_list, breaks = F1_list)
 
 # drawwidth <-  length(levels(df$binner_list))*0.2 + 1
@@ -117,9 +118,9 @@ dd <- ggbarplot(df, x = "binner_list", y = "mean_counts", fill = "BinScore",size
 
 # df$binner_list <- factor(df$binner_list,levels=df_sorted$binner_list)
 
-dper <- ggbarplot(df, x = "binner_list", y = "Percentage", fill = "BinScore",size = 0.1,
+dper <- ggbarplot(df, x = "binner_list", y = "Percentage", fill = "BinScore", color = "BinScore" ,size = 0.1,
             ggtheme = theme_bw() +
-              theme(axis.text.x = element_text(color="black",size=8,angle=-90,hjust= 0 ,vjust = 0.5 ,face="bold"),
+              theme(axis.text.x = element_text(color="black",size=6,angle=-90,hjust= 0 ,vjust = 0.5 ),
                     axis.text.y = element_text(color="black",size=8,face="bold"),
                     axis.title.y=element_text(color="black",size=8,face="bold"),
                     axis.title.x=element_text(color="black",size=8,face="bold"),
@@ -137,6 +138,7 @@ dper <- ggbarplot(df, x = "binner_list", y = "Percentage", fill = "BinScore",siz
                     panel.background = element_blank()),
             legend = "none",title = "",xlab = 'Binners Combination', ylab = 'Percentage',width =0.7)+ 
     scale_y_continuous(expand = expansion(mult = c(0, 0)))+
+    scale_color_manual(values=type_col,labels=F1_list,limits = F1_list, breaks = F1_list)+
     scale_fill_manual(values=type_col,labels=F1_list,limits = F1_list, breaks = F1_list)
 
 # drawwidth <-  length(levels(df$binner_list))*0.2 + 1
@@ -178,7 +180,7 @@ for ( i in dataset_list ) {
 
   sub_df$binner_list <- factor(sub_df$binner_list,levels=sub_df_sorted$binner_list)
 
-  sub_dper <- ggbarplot(sub_df, x = "binner_list", y = "Percentage", fill = "BinScore",size = 0.1,
+  sub_dper <- ggbarplot(sub_df, x = "binner_list", y = "Percentage", fill = "BinScore",color = "BinScore",size = 0.1,
               ggtheme = theme_bw() +
                 theme(axis.text.x = element_text(color="black",size=8,angle=-90,hjust= 0 ,vjust = 0.5 ,face="bold"),
                       axis.text.y = element_text(color="black",size=8,face="bold"),
@@ -197,8 +199,8 @@ for ( i in dataset_list ) {
                       plot.margin = margin(l =5 , r = 20),
                       panel.background = element_blank()),
               legend = "none",title = "",xlab = i, ylab = 'Percentage',width =0.7)+ 
+      scale_color_manual(values=type_col,labels=F1_list,limits = F1_list, breaks = F1_list)+
       scale_fill_manual(values=type_col,labels=F1_list,limits = F1_list, breaks = F1_list)
-
   drawwidth <-  length(levels(sub_df$binner_list))*0.2 + 1
   drawheight <- max(nchar(levels(sub_df$binner_list)))*0.1 +2
 
