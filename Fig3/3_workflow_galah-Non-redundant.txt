@@ -1,0 +1,3 @@
+level	MetaflowX	nf_mag	MetaWRAP
+species	471	446	416
+strain	504	503	443

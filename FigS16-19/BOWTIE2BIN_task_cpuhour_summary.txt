@@ -1,2 +1,0 @@
-	simple_task	clean_bases_mean	clean_bases_sd	cpu_hour_mean	cpu_hour_sd
-1	BOWTIE2BIN	8.089	4.137	4.804	2.933

@@ -115,7 +115,7 @@ for (dataset in group_list){
                  panel.labs.font = list(size = 5, angle = 0),panel.grid = element_blank(), panel.labs.background = list(fill = NA, color = NA) )
 
 
-        pdf(file=paste("FigS13.",dataset,".pdf",sep=""),width = 1.5 , height = 7)
+        pdf(file=paste("FigS15.",dataset,".pdf",sep=""),width = 1.5 , height = 7)
         print(onefig)
         dev.off()
 

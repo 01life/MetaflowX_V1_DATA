@@ -1,3 +1,0 @@
-	simple_task	clean_bases_mean	clean_bases_sd	cpu_hour_mean	cpu_hour_sd
-1	MEGAHIT	10.115	3.84	40.549	24.094
-2	NA	6.105	3.418	NA	NA

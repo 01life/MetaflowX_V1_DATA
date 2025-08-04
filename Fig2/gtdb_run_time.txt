@@ -1,0 +1,7 @@
+group	method	time
+1000	MetaflowX-chunked	40.2
+3000	MetaflowX-chunked	46.43
+6000	MetaflowX-chunked	56.35
+1000	gtdbtk-single	74.18
+3000	gtdbtk-single	106.05
+6000	gtdbtk-single	172.02

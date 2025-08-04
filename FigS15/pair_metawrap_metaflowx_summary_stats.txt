@@ -1,3 +1,0 @@
-	Group	Completeness_Mean	Completeness_Median	Completeness_SD	Completeness_Min	Completeness_Max	Contamination_Mean	Contamination_Median	Contamination_SD	Contamination_Min	Contamination_Max
-1	MetaWRAP	91.4425696594427	95.25	10.197815161081	51.85	100	1.29458204334365	0.81	1.46731450580004	0	9.29
-2	MetaflowX	91.1595975232198	95.42	10.7869977298526	52.23	100	0.924489164086687	0.62	1.03114600467478	0	7.54

@@ -1,3 +1,0 @@
-	simple_task	clean_bases_mean	clean_bases_sd	cpu_hour_mean	cpu_hour_sd
-1	METASPADES	6.105	3.418	93.18	67.686
-2	NA	10.115	3.84	NA	NA

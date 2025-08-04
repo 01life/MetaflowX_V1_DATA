@@ -1,1 +1,0 @@
-Bin_Count ~ Contig_Count	 y = -5.2936+0.0022x

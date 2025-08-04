@@ -1,1 +1,0 @@
-BOWTIE2GENE	 y = 1.5495+0x
